@@ -2,57 +2,27 @@
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0056D66BCE9143618CC',
+    id: '3EB0B75FA8FDE1D63C24E6',
     participant: undefined
   },
-  messageTimestamp: 1713445652,
+  messageTimestamp: 1713452012,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'hola',
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
+  body: '1',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b146801d-29b7-417f-a28f-b40eb13675a4',
-  keyword: 'key_d437dbb1-1536-4268-ab07-5e9c9a2d7fa2',
-  answer: '🙌 Hola, bienvenido a nuestro servicio de streaming bot!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '1d22b2f68e6553e24bf894528701026f'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_35e77ab3-db26-4e14-a5c5-61fd2d7e378d',
-  keyword: 'ans_b146801d-29b7-417f-a28f-b40eb13675a4',
-  answer: '¿Qué te gustaría hacer?\n' +
-    '*Netflix* para Ver Netflix\n' +
-    '*HBO* para Ver HBO\n' +
-    '*Amazon Prime Video* para Ver Amazon Prime Video\n' +
-    '*Paramount* para Ver Paramount+\n' +
-    '*Deezer* para Ver Deezer\n' +
-    '*Spotify* para Ver Spotify\n' +
-    '*Youtube Music* para Ver Youtube Music\n' +
-    '*Crunchyroll* para Ver Crunchyroll\n' +
-    '*Disney* para Ver Disney+\n' +
-    '*Star+* para Ver Star+\n' +
-    '*Win+* para Ver Win+\n' +
-    '*IPTV* para Ver IPTV\n' +
-    '*98* Contactar al proveedor en caso de emergencia',
+  ref: 'ans_850c55a7-2135-4f31-96fd-d75940b68015',
+  keyword: 'key_252dd835-ad3f-4ed9-8b5a-fe885a4fb985',
+  answer: '💰 El precio de Netflix es $9.99 por mes.\n' +
+    '*Atras a Netflix* para volver al menú anterior',
   options: {
     media: null,
     buttons: [],
@@ -65,5 +35,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'bc5fc3cfef6f26cc0d71a3186472b4ce'
+  refSerialize: '225db33e6222871489e1ea8f439d499a'
 }
