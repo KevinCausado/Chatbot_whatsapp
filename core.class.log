@@ -2,15 +2,15 @@
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '3EB00ED2E1A8B14C45A56B',
+    id: '3EB005DE0D1FB5D4DC6EEE',
     participant: undefined
   },
-  messageTimestamp: 1713464387,
+  messageTimestamp: 1713471643,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'buenas',
+      text: 'hola',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -19,13 +19,13 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'buenas',
+  body: 'hola',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e4b7fc1e-dafa-4462-b018-f68944dfb146',
-  keyword: 'key_cf01dcac-9139-4850-aa76-7dc6a2545ecc',
-  answer: ' ¡Bienvenido a nuestro servicio de streaming!',
+  ref: 'ans_9f32030c-ff90-4433-a762-48d4149401e3',
+  keyword: 'key_b3755398-ab9a-486b-8393-53c5b7e87e05',
+  answer: '🙌 Hola, bienvenido a nuestro servicio de streaming bot!',
   options: {
     media: null,
     buttons: [],
@@ -38,12 +38,25 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd53181696c11f772ae65942c4784744d'
+  refSerialize: '438fa085c44db8040d7cf06f00d64295'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a350d701-3d56-4e8f-8d72-77965a7fca6e',
-  keyword: 'ans_e4b7fc1e-dafa-4462-b018-f68944dfb146',
-  answer: 'Para acceder al menú principal, escribe "Menú" o presiona el botón correspondiente.',
+  ref: 'ans_d6591a1a-fc65-46e5-98bb-006f256793cd',
+  keyword: 'ans_9f32030c-ff90-4433-a762-48d4149401e3',
+  answer: '¿Qué te gustaría hacer?\n' +
+    '*Netflix* para Ver Netflix\n' +
+    '*HBO* para Ver HBO\n' +
+    '*Amazon Prime Video* para Ver Amazon Prime Video\n' +
+    '*Paramount* para Ver Paramount+\n' +
+    '*Deezer* para Ver Deezer\n' +
+    '*Spotify* para Ver Spotify\n' +
+    '*Youtube Music* para Ver Youtube Music\n' +
+    '*Crunchyroll* para Ver Crunchyroll\n' +
+    '*Disney* para Ver Disney+\n' +
+    '*Star+* para Ver Star+\n' +
+    '*Win+* para Ver Win+\n' +
+    '*IPTV* para Ver IPTV\n' +
+    '*98* Contactar al proveedor en caso de emergencia',
   options: {
     media: null,
     buttons: [],
@@ -54,23 +67,23 @@
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '695ae2c78304bc5123de6906a96420d8'
+  refSerialize: '3720afbacabc7bf13810dfe108b47cb4'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '3EB00D791CE15FAB7BBE4C',
+    id: '3EB0BDAB6C76246F6507AD',
     participant: undefined
   },
-  messageTimestamp: 1713464397,
+  messageTimestamp: 1713471646,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'h',
+      text: 'Netflix',
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
     },
@@ -79,14 +92,15 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'h',
+  body: 'Netflix',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e1aeca2d-e3e9-4d19-aa92-9c43e024a6e4',
-  keyword: 'key_24f0cdc4-2c3b-43f2-bb48-12248c856bf7',
+  ref: 'ans_e48f7118-d8bf-4221-89dc-831cd476a127',
+  keyword: 'key_55b59a85-d8a6-4e90-b72e-2a813d59d709',
   answer: '🎬 Descubre las últimas películas y series en Netflix\n' +
-    '*3* para ver precio\n' +
+    '*Precio* para ver precio\n' +
+    '*Pago* para ver métodos de pago\n' +
     '*Volver* para volver al menú principal',
   options: {
     media: null,
@@ -100,5 +114,117 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '6b6c225d56112f90ecdb4650dbc58e4b'
+  refSerialize: 'f62b4164020125083983ebd8c3444d08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05E5780B00FB04B115E',
+    participant: undefined
+  },
+  messageTimestamp: 1713471650,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Precio',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Precio',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8ddd8d24-796c-424d-b7af-a15e10cb1701',
+  keyword: 'key_be9952dd-768e-47cb-b816-716f8ece3f8e',
+  answer: '💰 El precio de Netflix es $9.99 por mes.\n' +
+    '*Atras* para volver al menú anterior',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'fddfd504e62fecf38ae2cba5846316b0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04E86BF90FEC371404A',
+    participant: undefined
+  },
+  messageTimestamp: 1713471654,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Atras',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Atras',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d0c19794-c988-4ff3-8904-e3833325f062',
+  keyword: 'key_891f703b-82a6-45a7-90f4-20085707d5ad',
+  answer: '🎬 Descubre las últimas películas y series en Netflix\n' +
+    '*Precio* para ver precio\n' +
+    '*Pago* para ver métodos de pago\n' +
+    '*Volver* para volver al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'c5c5ed01b2c2a49d9be6dd2c2d22a9b4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB056629241FC32BBB004',
+    participant: undefined
+  },
+  messageTimestamp: 1713471662,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'fff',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'fff',
+  from: '573152089391'
 }
