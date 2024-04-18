@@ -37,12 +37,11 @@ const flowServicios = addKeyword(['Servicios','servicios'])
 const flowMetodosPago = addKeyword(['Pago', 'pago']).addAnswer([
   '💳 Aquí están los métodos de pago',
     '',
-    '- Nequi:3152089391',
-    '- Bancolombia:3152089391',
-    '- Davivienda:3152089391',
-    '- Daviplata:3152089391',
-    '',    
-    ' Escribe *Volver* para volver al menú principal'
+    '💸 Nequi: 3152089391',
+    '🏦 Bancolombia: 3152089391',
+    '🏛️ Davivienda: 3152089391',
+    '📱 Daviplata: 3152089391',       
+    ' 🔙 Escribe Volver para regresar al menú principal'
 
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
