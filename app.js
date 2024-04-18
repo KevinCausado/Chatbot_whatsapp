@@ -66,10 +66,10 @@ flowContacto = addKeyword(['98', 'contacto', 'emergencia','Soporte','soporte']).
 // Flujo principal para mostrar las opciones principales
 flowPrincipal = addKeyword(['Hola', 'hola', 'Ole', 'ole', 'Alo', 'alo', 'Hola!', 'HOLA', 'Hola', 'Hola!', '¡Hola', 'hola!', 'holaaa', 'hii', 'hi', 'Hello', 'HELLO', 'hey', 'Hey', 'buenas', 'Buenas', 'Buenos días', 'Buenas tardes', 'Buenas noches','Volver','volver']).
 addAnswer([
-  '¿Qué te gustaría hacer?',
-  'Escribe *Servicios* para ver los servicios disponibles',
-  'Escribe *Pago* para ver los servicios disponibles',
-  'Escribe *Soporte* Contactar al proveedor en caso de emergencia',
+  '🤔 ¿Qué te gustaría hacer?',
+  '🔍 Escribe Servicios para explorar las opciones disponibles.',
+  '💰 Escribe Pago para revisar las formas de pago.',
+  '🆘 Escribe Soporte para contactar al proveedor en caso de emergencia.',
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
   if (option === 'Servicios') {
