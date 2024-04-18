@@ -2,27 +2,57 @@
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0B75FA8FDE1D63C24E6',
+    id: '3EB01D6791A1B121031D24',
     participant: undefined
   },
-  messageTimestamp: 1713452012,
+  messageTimestamp: 1713454444,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: '1',
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '1',
+  body: 'hola',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_850c55a7-2135-4f31-96fd-d75940b68015',
-  keyword: 'key_252dd835-ad3f-4ed9-8b5a-fe885a4fb985',
-  answer: '💰 El precio de Netflix es $9.99 por mes.\n' +
-    '*Atras a Netflix* para volver al menú anterior',
+  ref: 'ans_eac5f902-c496-41e0-8560-3a5251a83f35',
+  keyword: 'key_25cea3e2-78d4-4d9f-9864-d401e768b6d5',
+  answer: '🙌 Hola, bienvenido a nuestro servicio de streaming bot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f0b6cdcbd585f8ee406c0d148347f959'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8ca09403-0a17-4fef-9659-b071988bebe2',
+  keyword: 'ans_eac5f902-c496-41e0-8560-3a5251a83f35',
+  answer: '¿Qué te gustaría hacer?\n' +
+    '*Netflix* para Ver Netflix\n' +
+    '*HBO* para Ver HBO\n' +
+    '*Amazon Prime Video* para Ver Amazon Prime Video\n' +
+    '*Paramount* para Ver Paramount+\n' +
+    '*Deezer* para Ver Deezer\n' +
+    '*Spotify* para Ver Spotify\n' +
+    '*Youtube Music* para Ver Youtube Music\n' +
+    '*Crunchyroll* para Ver Crunchyroll\n' +
+    '*Disney* para Ver Disney+\n' +
+    '*Star+* para Ver Star+\n' +
+    '*Win+* para Ver Win+\n' +
+    '*IPTV* para Ver IPTV\n' +
+    '*98* Contactar al proveedor en caso de emergencia',
   options: {
     media: null,
     buttons: [],
@@ -35,5 +65,367 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '225db33e6222871489e1ea8f439d499a'
+  refSerialize: 'ea9105efacd3cfd8419f9af2d2a034f0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03549A7D19660B3E822',
+    participant: undefined
+  },
+  messageTimestamp: 1713454448,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Netflix',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Netflix',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0b335677-c36b-46fc-9105-cb498a2a813c',
+  keyword: 'key_ec6b27d8-3726-4a7b-a893-de3ed577782b',
+  answer: '🎬 Descubre las últimas películas y series en Netflix\n' +
+    '*Precio* para ver precio\n' +
+    '*Pago* para ver métodos de pago\n' +
+    '*Volver* para volver al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'db60328d95fd4bb22c3ffed36ce46f58'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F674E78FCCAA3F5133',
+    participant: undefined
+  },
+  messageTimestamp: 1713454451,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Precio',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Precio',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8f191966-7dab-4f43-a165-d43bd17bc6b4',
+  keyword: 'key_509cbeff-9e9a-45c2-bb0a-3dac0157349a',
+  answer: '💰 El precio de Netflix es $9.99 por mes.\n' +
+    '*Atras* para volver al menú anterior',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ab815c58faa0cef9a47a1a7f3afd636a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00A84C02538A02B0F36',
+    participant: undefined
+  },
+  messageTimestamp: 1713454455,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Atras',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Atras',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_096ae74a-481a-4c1d-8c55-c1d2b237dad1',
+  keyword: 'key_37dd0155-7492-41bc-b4a8-9128336b5191',
+  answer: '🎬 Descubre las últimas películas y series en Netflix\n' +
+    '*Precio* para ver precio\n' +
+    '*Pago* para ver métodos de pago\n' +
+    '*Volver* para volver al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '0f5d5140a25e3be17a30243747e96a2e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0011E6BFFF35CD10103',
+    participant: undefined
+  },
+  messageTimestamp: 1713454457,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Pago',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Pago',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_13cfad64-8092-4fcb-83dc-7eef0faca129',
+  keyword: 'key_7606ec29-74fd-473d-b7ec-326b24129a69',
+  answer: '💳 Aquí están los métodos de pago\n' +
+    '\n' +
+    '- Nequi:3152089391\n' +
+    '- Bancolombia:3152089391\n' +
+    '- Davivienda:3152089391\n' +
+    '- Daviplata:3152089391\n' +
+    '\n' +
+    '*Atras* para volver al menú anterior',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '45a6e42d0c55fd55944698ea3cf5fac3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F1F1DB8D1570D9B33D',
+    participant: undefined
+  },
+  messageTimestamp: 1713454460,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Atras',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Atras',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_096ae74a-481a-4c1d-8c55-c1d2b237dad1',
+  keyword: 'key_37dd0155-7492-41bc-b4a8-9128336b5191',
+  answer: '🎬 Descubre las últimas películas y series en Netflix\n' +
+    '*Precio* para ver precio\n' +
+    '*Pago* para ver métodos de pago\n' +
+    '*Volver* para volver al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '0f5d5140a25e3be17a30243747e96a2e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09E69D753EFACB587D7',
+    participant: undefined
+  },
+  messageTimestamp: 1713454463,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8ee8bf0e-c353-4a87-a3ad-0769de9372c8',
+  keyword: 'key_b4b327e9-33c1-4cd5-ac48-fba6545fe810',
+  answer: '🙌 Hola, bienvenido a nuestro servicio de streaming bot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a63116954f12d1c5e1dd3855064f161e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a50e1181-35e6-421a-8c01-0c2e7cbf5988',
+  keyword: 'ans_8ee8bf0e-c353-4a87-a3ad-0769de9372c8',
+  answer: '¿Qué te gustaría hacer?\n' +
+    '*Netflix* para Ver Netflix\n' +
+    '*98* Contactar al proveedor en caso de emergencia',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '79e42a76e0898e0289e70a5aabec8eb9'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09CBF30C5EAD6D0DD60',
+    participant: undefined
+  },
+  messageTimestamp: 1713454466,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: '98',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '98',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_65095173-c507-4179-aa92-d3c5a4c6d033',
+  keyword: 'key_9c80cab1-82a2-423b-a0f4-81d8232d7c1b',
+  answer: '🚨 Puedes contactar al proveedor al siguiente número: 3152089391\n' +
+    '*Volver* para volver al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b97eafc118ebf8213d784627878e5686'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F6765ED0FAFE5C8859',
+    participant: undefined
+  },
+  messageTimestamp: 1713454468,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8ee8bf0e-c353-4a87-a3ad-0769de9372c8',
+  keyword: 'key_b4b327e9-33c1-4cd5-ac48-fba6545fe810',
+  answer: '🙌 Hola, bienvenido a nuestro servicio de streaming bot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a63116954f12d1c5e1dd3855064f161e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a50e1181-35e6-421a-8c01-0c2e7cbf5988',
+  keyword: 'ans_8ee8bf0e-c353-4a87-a3ad-0769de9372c8',
+  answer: '¿Qué te gustaría hacer?\n' +
+    '*Netflix* para Ver Netflix\n' +
+    '*98* Contactar al proveedor en caso de emergencia',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '79e42a76e0898e0289e70a5aabec8eb9'
 }

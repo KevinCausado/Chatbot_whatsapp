@@ -6,63 +6,26 @@ const MockAdapter = require('@bot-whatsapp/database/mock');
 
 let flowPrincipal = null;
 let flowNetflix = null;
-let flowHBO= null;
-let flowAmazonPrime=null;
-let flowParamount=null;
 let flowContacto = null;
 
-// Flujo para volver al menú anterior de los servicios
+// Flujo para volver al menú anterior
 const flowVolverMenuPrincipal = addKeyword(['Volver', 'volver', 'regresar']).addAnswer('🙌 Hola, bienvenido a nuestro servicio de streaming bot!')
 .addAnswer([
   '¿Qué te gustaría hacer?',
-    '*Netflix* para Ver Netflix',
-    '*HBO* para Ver HBO',
-    '*Amazon Prime* para Ver Amazon Prime Video',
-    '*Paramount* para Ver Paramount+',
-    '*Deezer* para Ver Deezer',
-    '*Spotify* para Ver Spotify',
-    '*Youtube Music* para Ver Youtube Music',
-    '*Crunchyroll* para Ver Crunchyroll',
-    '*Disney* para Ver Disney+',
-    '*Star+* para Ver Star+',
-    '*Win+* para Ver Win+',
-    '*IPTV* para Ver IPTV',
-    '*98* Contactar al proveedor en caso de emergencia',
+  '*Netflix* para Ver Netflix',
+  '*98* Contactar al proveedor en caso de emergencia',
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
   if (option === 'Netflix') {
-    return await flowDynamic(flowNetflix);      
-  }else if (option === 'HBO') {
-    return await flowDynamic(flowHBO);
-  }else if (option === 'Amazon Prime') {
-    return await flowDynamic(flowAmazonPrime);
-  }else if (option === 'Paramount') {
-    return await flowDynamic(flowParamount);
-  }else if (option === '98') {
+    return await flowDynamic(flowNetflix);
+  } else if (option === '98') {
     return await flowDynamic(flowContacto);
   }
 });
 
-// Flujo para volver al menú desde Opciones al servicio como tal
+// Flujo para volver al menú Netflix
 const flowVolverMenuNetflix = addKeyword(['atras', 'Atras']).addAnswer([
   '🎬 Descubre las últimas películas y series en Netflix',
-  '*Precio Netflix* para ver precio',
-  '*Pago* para ver métodos de pago',
-  '*Volver* para volver al menú principal'
-
-], null, async (context, { flowDynamic }) => {
-  const option = context.body.trim();
-  if (option === 'Precio Netflix') {
-    return await flowDynamic(flowPrecioNetflix);
-  } else if (option === 'Pago') {
-    return await flowDynamic(flowMetodosPago);
-  }else if (option === 'Volver') {
-    return await flowDynamic(flowVolverMenuPrincipal);
-  }
-});
-
-const flowVolverMenuHBO = addKeyword(['atras', 'Atras']).addAnswer([
-  '🎬 Descubre las últimas películas y series en HBO',
   '*Precio* para ver precio',
   '*Pago* para ver métodos de pago',
   '*Volver* para volver al menú principal'
@@ -72,94 +35,27 @@ const flowVolverMenuHBO = addKeyword(['atras', 'Atras']).addAnswer([
   if (option === 'Precio') {
     return await flowDynamic(flowPrecioNetflix);
   } else if (option === 'Pago') {
-    return await flowDynamic(flowMetodosPago);
+    return await flowDynamic(flowMetodosPagoNetflix);
   }else if (option === 'Volver') {
-    return await flowDynamic(flowVolverMenuPrincipal);
-  }
-});
-
-const flowVolverMenuAmazonPrime = addKeyword(['atras', 'Atras']).addAnswer([
-  '🎬 Descubre las últimas películas y series en Amazon Prime',
-  '*Precio* para ver precio',
-  '*Pago* para ver métodos de pago',
-  '*Volver* para volver al menú principal'
-
-], null, async (context, { flowDynamic }) => {
-  const option = context.body.trim();
-  if (option === 'Precio') {
-    return await flowDynamic(flowPrecioNetflix);
-  } else if (option === 'Pago') {
-    return await flowDynamic(flowMetodosPago);
-  }else if (option === 'Volver') {
-    return await flowDynamic(flowVolverMenuPrincipal);
-  }
-});
-
-const flowVolverMenuParamount = addKeyword(['atras', 'Atras']).addAnswer([
-  '🎬 Descubre las últimas películas y series en Paramount',
-  '*Precio* para ver precio',
-  '*Pago* para ver métodos de pago',
-  '*Volver* para volver al menú principal'
-
-], null, async (context, { flowDynamic }) => {
-  const option = context.body.trim();
-  if (option === 'Precio') {
-    return await flowDynamic(flowPrecioNetflix);
-  } else if (option === 'Pago') {
-    return await flowDynamic(flowMetodosPago);
-  }else if (option === 'Volver') {
-    return await flowDynamic(flowVolverMenuPrincipal);
+    return await flowDynamic(flowVolver);
   }
 });
 
 
-// Flujo secundario para la opcion 1 de precios de Servicios
-const flowPrecioNetflix = addKeyword(['1'])
+// Flujo secundario para la opción 1 (Ver precio de Netflix)
+const flowPrecioNetflix = addKeyword(['Precio', 'precio'])
 .addAnswer([
   '💰 El precio de Netflix es $9.99 por mes.',
-  '*Atras a Netflix* para volver al menú anterior',  
+  '*Atras* para volver al menú anterior',  
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
-  if (option === 'Atras a Netflix') {
+  if (option === 'Atras') {
     return await flowDynamic(flowVolverMenuNetflix);
   }
 });
 
-const flowPrecioHBO = addKeyword(['Precio HBO', 'precio hbo'])
-.addAnswer([
-  '💰 El precio de HBO es $9.99 por mes.',
-  '*Atras a HBO* para volver al menú anterior',  
-], null, async (context, { flowDynamic }) => {
-  const option = context.body.trim();
-  if (option === 'Atras') {
-    return await flowDynamic(flowVolverMenuHBO);
-  }
-});
-
-const flowPrecioAmazonPrime = addKeyword(['Precio Amazon Prime', 'precio amazon prime'])
-.addAnswer([
-  '💰 El precio de Amazon Prime es $9.99 por mes.',
-  '*Atras* para volver al menú anterior',  
-], null, async (context, { flowDynamic }) => {
-  const option = context.body.trim();
-  if (option === 'Atras') {
-    return await flowDynamic(flowVolverMenuAmazonPrime);
-  }
-});
-
-const flowPrecioParamount = addKeyword(['Precio Paramount', 'precio paramount'])
-.addAnswer([
-  '💰 El precio de Paramount es $9.99 por mes.',
-  '*Atras* para volver al menú anterior',  
-], null, async (context, { flowDynamic }) => {
-  const option = context.body.trim();
-  if (option === 'Atras') {
-    return await flowDynamic(flowVolverMenuParamount);
-  }
-});
-
 // Flujo secundario para la opción 2 (Ver métodos de pago)
-const flowMetodosPago = addKeyword(['Pago', 'pago']).addAnswer([
+const flowMetodosPagoNetflix = addKeyword(['Pago', 'pago']).addAnswer([
   '💳 Aquí están los métodos de pago',
     '',
     '- Nequi:3152089391',
@@ -172,83 +68,28 @@ const flowMetodosPago = addKeyword(['Pago', 'pago']).addAnswer([
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
   if (option === 'Atras') {
-    return await flowDynamic(flowVolverMenuPrincipal);
+    return await flowDynamic(flowVolverMenuNetflix);
   }
 });
 
-  // Flujo principal para Servicios 
-   flowNetflix = addKeyword(['Netflix', 'netflix'])
+  // Flujo principal para Netflix
+flowNetflix = addKeyword(['Netflix', 'netflix'])
   .addAnswer([
     '🎬 Descubre las últimas películas y series en Netflix',
-    '*1* para ver precio',
-    '*Pago* para ver métodos de pago',
-    '*Volver* para volver al menú principal'
-  ], null, async (context, { flowDynamic }) => {
-    const option = context.body.trim();
-    if (option === '1') { // Aquí se cambió la condición a 'Precio Netflix'
-      return await flowDynamic(flowPrecioNetflix); // Redirige al flujo de precio correcto
-    } else if (option === 'Pago') {
-      return await flowDynamic(flowMetodosPago);
-    } else if (option === 'Volver') {
-      return await flowDynamic(flowVolverMenuPrincipal);
-    }
-  });
-
-
-  flowHBO = addKeyword(['HBO', 'hbo'])
-  .addAnswer([
-    '🎬 Descubre las últimas películas y series en HBO',
-    '*Precio HBO* para ver precio',
-    '*Pago* para ver métodos de pago',
-    '*Volver* para volver al menú principal'
-
-  ], null, async (context, { flowDynamic }) => {
-    const option = context.body.trim();
-    if (option === 'Precio HBO') {
-      return await flowDynamic(flowPrecioHBO);
-    } else if (option === 'Pago') {
-      return await flowDynamic(flowMetodosPago);
-    }else if (option === 'Volver') {
-      return await flowDynamic(flowVolverMenuPrincipal);
-    }
-  });
-
-  flowAmazonPrime = addKeyword(['Amazon Prime', 'amazon prime '])
-  .addAnswer([
-    '🎬 Descubre las últimas películas y series en AmazonPrime',
     '*Precio* para ver precio',
     '*Pago* para ver métodos de pago',
     '*Volver* para volver al menú principal'
 
   ], null, async (context, { flowDynamic }) => {
     const option = context.body.trim();
-    if (option === 'Precio Amazon Prime') {
-      return await flowDynamic(flowPrecioAmazonPrime);
+    if (option === 'Precio') {
+      return await flowDynamic(flowPrecioNetflix);
     } else if (option === 'Pago') {
-      return await flowDynamic(flowMetodosPago);
+      return await flowDynamic(flowMetodosPagoNetflix);
     }else if (option === 'Volver') {
       return await flowDynamic(flowVolverMenuPrincipal);
     }
   });
-
-  flowParamount = addKeyword(['Paramount', 'paramount'])
-  .addAnswer([
-    '🎬 Descubre las últimas películas y series en Parmount',
-    '*Precio* para ver precio',
-    '*Pago* para ver métodos de pago',
-    '*Volver* para volver al menú principal'
-
-  ], null, async (context, { flowDynamic }) => {
-    const option = context.body.trim();
-    if (option === 'Precio Paramount') {
-      return await flowDynamic(flowPrecioParamount);
-    } else if (option === 'Pago') {
-      return await flowDynamic(flowMetodosPago);
-    }else if (option === 'Volver') {
-      return await flowDynamic(flowVolverMenuPrincipal);
-    }
-  });
-  
 
 
 // Flujo para contactar al proveedor en caso de emergencia
@@ -270,7 +111,7 @@ flowPrincipal = addKeyword(['Hola', 'hola', 'Ole', 'ole', 'Alo', 'alo', 'Hola!',
     '¿Qué te gustaría hacer?',
     '*Netflix* para Ver Netflix',
     '*HBO* para Ver HBO',
-    '*Amazon Prime* para Ver Amazon Prime Video',
+    '*Amazon Prime Video* para Ver Amazon Prime Video',
     '*Paramount* para Ver Paramount+',
     '*Deezer* para Ver Deezer',
     '*Spotify* para Ver Spotify',
@@ -284,14 +125,8 @@ flowPrincipal = addKeyword(['Hola', 'hola', 'Ole', 'ole', 'Alo', 'alo', 'Hola!',
   ], null, async (context, { flowDynamic }) => {
     const option = context.body.trim();
     if (option === 'Netflix') {
-      return await flowDynamic(flowNetflix);      
-    }else if (option === 'HBO') {
-      return await flowDynamic(flowHBO);
-    }else if (option === 'Amazon Prime') {
-      return await flowDynamic(flowAmazonPrime);
-    }else if (option === 'Paramount') {
-      return await flowDynamic(flowParamount);
-    }else if (option === '98') {
+      return await flowDynamic(flowNetflix);
+    } else if (option === '98') {
       return await flowDynamic(flowContacto);
     }
   });
@@ -299,7 +134,7 @@ flowPrincipal = addKeyword(['Hola', 'hola', 'Ole', 'ole', 'Alo', 'alo', 'Hola!',
 // Función principal para crear el bot
 const main = async () => {
     const adapterDB = new MockAdapter();
-    const adapterFlow = createFlow([flowPrincipal,flowNetflix,flowHBO,flowAmazonPrime,flowParamount,flowPrecioNetflix,flowPrecioHBO,flowPrecioAmazonPrime,flowPrecioParamount, flowMetodosPago, flowContacto, flowVolverMenuPrincipal,flowVolverMenuNetflix,flowVolverMenuHBO,flowVolverMenuAmazonPrime,flowVolverMenuParamount]);
+    const adapterFlow = createFlow([flowPrincipal,flowNetflix, flowPrecioNetflix, flowMetodosPagoNetflix, flowContacto, flowVolverMenuPrincipal,flowVolverMenuNetflix]);
     const adapterProvider = createProvider(BaileysProvider);
 
     createBot({
