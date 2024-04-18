@@ -52,7 +52,7 @@ const flowMetodosPago = addKeyword(['Pago', 'pago']).addAnswer([
 });
 
 // Flujo para contactar al proveedor en caso de emergencia
-flowContacto = addKeyword(['98', 'contacto', 'emergencia']).addAnswer([
+flowContacto = addKeyword(['98', 'contacto', 'emergencia','Soporte','soporte']).addAnswer([
   '🚨 Puedes contactar al proveedor al siguiente número: 3152089391',
   'Escribe *Volver* para volver al menú principal'
 ], null, async (context, { flowDynamic }) => {
@@ -69,7 +69,7 @@ addAnswer([
   '¿Qué te gustaría hacer?',
   'Escribe *Servicios* para ver los servicios disponibles',
   'Escribe *Pago* para ver los servicios disponibles',
-  'Escribe *98* Contactar al proveedor en caso de emergencia',
+  'Escribe *Soporte* Contactar al proveedor en caso de emergencia',
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
   if (option === 'Servicios') {
@@ -77,7 +77,7 @@ addAnswer([
   } else if (option === 'Pago') {
     return await flowDynamic(flowMetodosPago);
   }
-  else if (option === '98') {
+  else if (option === 'Soporte') {
     return await flowDynamic(flowContacto);
   }
 });
