@@ -5,7 +5,6 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 
 let flowPrincipal = null;
-let flowNetflix = null;
 let flowContacto = null;
 
 // Flujo para volver al menú anterior
@@ -37,12 +36,11 @@ const flowServicios = addKeyword(['Servicios','servicios'])
 const flowMetodosPago = addKeyword(['Pago', 'pago']).addAnswer([
   '💳 Aquí están los métodos de pago',
     '',
-    '- Nequi:3152089391',
-    '- Bancolombia:3152089391',
-    '- Davivienda:3152089391',
-    '- Daviplata:3152089391',
-    '',    
-    ' Escribe *Volver* para volver al menú principal'
+    '💸 *Nequi*: 3152089391',
+    '🏦 *Bancolombia*: 3152089391',
+    '🏛️ *Davivienda*: 3152089391',
+    '📱 *Daviplata*: 3152089391',       
+    '🔙 Escribe Volver para regresar al menú principal'
 
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
@@ -66,10 +64,10 @@ flowContacto = addKeyword(['98', 'contacto', 'emergencia','Soporte','soporte']).
 // Flujo principal para mostrar las opciones principales
 flowPrincipal = addKeyword(['Hola', 'hola', 'Ole', 'ole', 'Alo', 'alo', 'Hola!', 'HOLA', 'Hola', 'Hola!', '¡Hola', 'hola!', 'holaaa', 'hii', 'hi', 'Hello', 'HELLO', 'hey', 'Hey', 'buenas', 'Buenas', 'Buenos días', 'Buenas tardes', 'Buenas noches','Volver','volver']).
 addAnswer([
-  '¿Qué te gustaría hacer?',
-  'Escribe *Servicios* para ver los servicios disponibles',
-  'Escribe *Pago* para ver los servicios disponibles',
-  'Escribe *Soporte* Contactar al proveedor en caso de emergencia',
+  '🤔 ¿Qué te gustaría hacer?',
+  '🔍 Escribe *Servicios* para explorar las opciones disponibles.',
+  '💰 Escribe *Pago* para revisar las formas de pago.',
+  '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
   if (option === 'Servicios') {
