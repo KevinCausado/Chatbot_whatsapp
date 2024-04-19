@@ -5,6 +5,7 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 
 let flowPrincipal = null;
+let flowNetflix = null;
 let flowContacto = null;
 
 // Flujo para volver al menú anterior
@@ -36,11 +37,13 @@ const flowServicios = addKeyword(['Servicios','servicios'])
 const flowMetodosPago = addKeyword(['Pago', 'pago']).addAnswer([
   '💳 Aquí están los métodos de pago',
     '',
-    '💸 *Nequi*: 3152089391',
-    '🏦 *Bancolombia*: 3152089391',
-    '🏛️ *Davivienda*: 3152089391',
-    '📱 *Daviplata*: 3152089391',       
-    '🔙 Escribe Volver para regresar al menú principal'
+    '💸 Nequi: 3152089391',
+    '🏦 Bancolombia: 3152089391',
+    '🏛️ Davivienda: 3152089391',
+    '📱 Daviplata: 3152089391',       
+    ' 🔙 Escribe Volver para regresar al menú principal',
+    '',    
+    ' Escribe *Volver* para volver al menú principal'
 
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
@@ -68,6 +71,7 @@ addAnswer([
   '🔍 Escribe *Servicios* para explorar las opciones disponibles.',
   '💰 Escribe *Pago* para revisar las formas de pago.',
   '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+
 ], null, async (context, { flowDynamic }) => {
   const option = context.body.trim();
   if (option === 'Servicios') {

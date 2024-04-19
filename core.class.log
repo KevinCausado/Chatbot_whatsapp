@@ -1,0 +1,418 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '9CC6166CA7CD05CCB1461716C3961E46',
+    participant: undefined
+  },
+  messageTimestamp: 1713486182,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Dd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Dd',
+  from: '573152089391'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: 'B1842B527FDD4808E804D65F51240BCA',
+    participant: undefined
+  },
+  messageTimestamp: 1713486185,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
+  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '8552498FA09F88F9E5C4AA5F64739CE8',
+    participant: undefined
+  },
+  messageTimestamp: 1713486188,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Dff',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Dff',
+  from: '573152089391'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '0F1697C9346C66EE720C5695FB76A5E5',
+    participant: undefined
+  },
+  messageTimestamp: 1713486196,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Servicios',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Servicios',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c85f9e94-59b3-42b4-8d7d-ed59518923c4',
+  keyword: 'key_69d68c1b-a151-42bb-bc6f-0375eff3c38f',
+  answer: '🙌 Hola, bienvenido a nuestro servicio de streaming bot!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '30855d85357c7d82145dce504f202078'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_83f2fb45-3df2-4689-b44a-cdc6c8277752',
+  keyword: 'ans_c85f9e94-59b3-42b4-8d7d-ed59518923c4',
+  answer: 'Servicios Disponibles\n' +
+    '*Netflix* a $14.900\n' +
+    '*HBO* a $12.000\n' +
+    '*Amazon Prime Video* a $12.000\n' +
+    '*Paramount* a $12.000\n' +
+    '*Deezer* a $12.000\n' +
+    '*Spotify* a $12.000\n' +
+    '*Youtube Music* a $12.000\n' +
+    '*Crunchyroll* a $12.000\n' +
+    '*Disney* a $12.000\n' +
+    '*Star+* a $12.000\n' +
+    '*Win+* a $12.000\n' +
+    '*IPTV* a $12.000\n' +
+    'Escribe *Volver* para retornar al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4997ea9d1323ee1b02b9195b1ee1e467'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: 'FC1AA1F7C7FDE66D968D73A50AE37717',
+    participant: undefined
+  },
+  messageTimestamp: 1713486203,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
+  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '67ECF37A15D2D51FCD2A8B75AFB4AF62',
+    participant: undefined
+  },
+  messageTimestamp: 1713486206,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Pago',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Pago',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2b998f05-f7c0-4a87-8258-5c532cf6371b',
+  keyword: 'key_e484c5c2-dbc3-4ee1-bd50-bd9e2a57263b',
+  answer: '💳 Aquí están los métodos de pago\n' +
+    '\n' +
+    '💸 Nequi: 3152089391\n' +
+    '🏦 Bancolombia: 3152089391\n' +
+    '🏛️ Davivienda: 3152089391\n' +
+    '📱 Daviplata: 3152089391\n' +
+    ' 🔙 Escribe Volver para regresar al menú principal\n' +
+    '\n' +
+    ' Escribe *Volver* para volver al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '08d413f7f6b13f5009232a464b0ff21d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: 'B9776998D6D88815207FB56411A4D10A',
+    participant: undefined
+  },
+  messageTimestamp: 1713486210,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Sjd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Sjd',
+  from: '573152089391'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: 'BA5A9FF97743717CD3601A475A7DA0C0',
+    participant: undefined
+  },
+  messageTimestamp: 1713486212,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: '27273',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '27273',
+  from: '573152089391'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '142CFFA7DD8B20493D2FE49F160476F2',
+    participant: undefined
+  },
+  messageTimestamp: 1713486221,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
+  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '7A75D5927BDF375FCF636E13141C316F',
+    participant: undefined
+  },
+  messageTimestamp: 1713486227,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Soporte',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Soporte',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1062dc98-a71a-4fa8-a49a-c94d2bed07d2',
+  keyword: 'key_a19882aa-62c6-4c26-9453-ef8ee6b42798',
+  answer: '🚨 Puedes contactar al proveedor al siguiente número: 3152089391\n' +
+    'Escribe *Volver* para volver al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'cab0d34be89cac3bae9388ed8f7f9c68'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '6CBD99398999ACC4AAD5B9F5E83C63A7',
+    participant: undefined
+  },
+  messageTimestamp: 1713486233,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
+  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '85B7AB4A3BBE91FABAAF01367FF73374',
+    participant: undefined
+  },
+  messageTimestamp: 1713486237,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Gracias',
+  from: '573152089391'
+}
