@@ -2,45 +2,25 @@
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '9CC6166CA7CD05CCB1461716C3961E46',
+    id: '3EB034BDB4AEB602F5BC7C',
     participant: undefined
   },
-  messageTimestamp: 1713486182,
+  messageTimestamp: 1713564154,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'Dd',
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Dd',
-  from: '573152089391'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573152089391@s.whatsapp.net',
-    fromMe: false,
-    id: 'B1842B527FDD4808E804D65F51240BCA',
-    participant: undefined
-  },
-  messageTimestamp: 1713486185,
-  pushName: 'Kevin Causado',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
+  body: 'hola',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
-  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
   answer: '🤔 ¿Qué te gustaría hacer?\n' +
     '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
     '💰 Escribe *Pago* para revisar las formas de pago.\n' +
@@ -57,52 +37,118 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '8552498FA09F88F9E5C4AA5F64739CE8',
+    id: '3EB0B4B22B50A789864802',
     participant: undefined
   },
-  messageTimestamp: 1713486188,
+  messageTimestamp: 1713564158,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'Dff',
+    conversation: 'pago',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Dff',
-  from: '573152089391'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573152089391@s.whatsapp.net',
-    fromMe: false,
-    id: '0F1697C9346C66EE720C5695FB76A5E5',
-    participant: undefined
-  },
-  messageTimestamp: 1713486196,
-  pushName: 'Kevin Causado',
-  broadcast: false,
-  message: Message {
-    conversation: 'Servicios',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Servicios',
+  body: 'pago',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c85f9e94-59b3-42b4-8d7d-ed59518923c4',
-  keyword: 'key_69d68c1b-a151-42bb-bc6f-0375eff3c38f',
-  answer: '🙌 Hola, bienvenido a nuestro servicio de streaming bot!',
+  ref: 'ans_482bc599-88b5-4a7f-9a64-dedadc7784a2',
+  keyword: 'key_dbab3f33-1445-4e10-919b-e6af0fb61ef3',
+  answer: '💳 Aquí están los métodos de pago\n' +
+    '\n' +
+    '💸 Nequi: 3152089391\n' +
+    '🏦 Bancolombia: 3152089391\n' +
+    '🏛️ Davivienda: 3152089391\n' +
+    '📱 Daviplata: 3152089391\n' +
+    '\n' +
+    ' 🔙 Escribe *Volver* para regresar al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3082a019e5e289562c6d109fbf4348b7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0DE5FF29690354AD9B0',
+    participant: undefined
+  },
+  messageTimestamp: 1713564161,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0056D92312931DBF810',
+    participant: undefined
+  },
+  messageTimestamp: 1713564165,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'servicios',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'servicios',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  keyword: 'key_a89dadd3-5a64-4144-bb47-b4169fd4947d',
+  answer: '🙌 Hola, bienvenido a nuestro catalogo de Servicios *International Film*',
   options: {
     media: null,
     buttons: [],
@@ -115,24 +161,87 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '30855d85357c7d82145dce504f202078'
+  refSerialize: 'eddd79ce4352432dc5760d825924612e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_83f2fb45-3df2-4689-b44a-cdc6c8277752',
-  keyword: 'ans_c85f9e94-59b3-42b4-8d7d-ed59518923c4',
-  answer: 'Servicios Disponibles\n' +
-    '*Netflix* a $14.900\n' +
-    '*HBO* a $12.000\n' +
-    '*Amazon Prime Video* a $12.000\n' +
-    '*Paramount* a $12.000\n' +
-    '*Deezer* a $12.000\n' +
-    '*Spotify* a $12.000\n' +
-    '*Youtube Music* a $12.000\n' +
-    '*Crunchyroll* a $12.000\n' +
-    '*Disney* a $12.000\n' +
-    '*Star+* a $12.000\n' +
-    '*Win+* a $12.000\n' +
-    '*IPTV* a $12.000\n' +
+  ref: 'ans_93f633d4-f0c3-431a-9a2d-2819997d3fff',
+  keyword: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  answer: 'Recuerda validar el último catálogo siempre\n' +
+    '\n' +
+    '*Netflix*\n' +
+    '🔴 1 Pantalla 1 Mes: 💵 $15.000\n' +
+    '🔴 2 Pantallas 1 Mes: 💵 $25.000\n' +
+    '🔴 3 Pantallas 1 Mes: 💵 $35.000\n' +
+    '🔴 4 Pantallas 1 Mes: 💵 $40.000\n' +
+    '\n' +
+    '*Amazon Prime Video*\n' +
+    '🔵 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🔵 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🔵 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Disney+*\n' +
+    '🟣 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟣 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🟣 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '🟣 4 Pantallas 1 Mes: 💵 $24.000\n' +
+    '\n' +
+    '*HBO MAX*\n' +
+    '⚫ 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '⚫ 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '⚫ 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Star+*\n' +
+    '🟠 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 Mes: 💵 $17.000\n' +
+    '🟠 3 Pantallas 1 Mes: 💵 $21.000\n' +
+    '🟠 4 Pantallas 1 Mes: 💵 $25.000\n' +
+    '\n' +
+    '*IPTV con Win+ 3000 Canales*\n' +
+    '🉐  1 dispositivo 1 Mes 💵$15.000\n' +
+    '🉐  2 dispositivo 1 Mes 💵$20.000\n' +
+    '🉐  3 dispositivo 1 Mes 💵$25.000\n' +
+    '\n' +
+    '*Plex*\n' +
+    '🟡 1 Pantalla(Solo Tv) 1 mes: 💵 $10.000\n' +
+    '🟡 2 Pantallas 1 mes: 💵 $16.000\n' +
+    '🟡 3 Pantallas 1 mes: 💵 $20.000\n' +
+    '🟡 4 Pantallas 1 mes: 💵 $24.000\n' +
+    '\n' +
+    '*Directv go Oro con win+ , hbo y nba*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $40.000\n' +
+    '\n' +
+    '*Directv go Plata con win+*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $35.000\n' +
+    '\n' +
+    '*Crunchyroll*\n' +
+    '🟠 1 Pantalla 1 mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 mes: 💵 16.000\n' +
+    '🟠 4 Pantallas 1 mes: 💵 $20.000\n' +
+    '\n' +
+    '*Vix +*\n' +
+    '🔵 1 Pantalla 1 mes  💵$10.000\n' +
+    '🔵3 Pantalla 1 mes 💵$21.000\n' +
+    '\n' +
+    '*Paramount*\n' +
+    '⚫1 Pantalla 1 Mes 💵$10.000\n' +
+    '⚫2 Pantallas 1 Mes 💵$16.000\n' +
+    '⚫3 Pantallas 1 Mes 💵$18.000\n' +
+    '⚫4 Pantallas 1 Mes 💵$20.000\n' +
+    '\n' +
+    '*Apple Tv*\n' +
+    '🟣1 Dispositivo 3 Mes 💵 $22.000\n' +
+    '\n' +
+    '*Spotify*\n' +
+    '🟢 1 Mes: 💵 $10.000\n' +
+    '🟢 2 Meses: 💵 $14.000\n' +
+    '🟢 3 Meses: 💵 $20.000\n' +
+    '\n' +
+    '*Youtube Premium*\n' +
+    '⭕ 1 mes: 💵$10.000\n' +
+    '⭕ 2 meses: 💵$16.000\n' +
+    '⭕ 4 meses: 💵$30.000\n' +
+    '⭕ 1 mes Familiar: 💵$10.000\n' +
+    '\n' +
     'Escribe *Volver* para retornar al menú principal',
   options: {
     media: null,
@@ -146,31 +255,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '4997ea9d1323ee1b02b9195b1ee1e467'
+  refSerialize: '026b13d176b9dddac4e87e4a0fa2b373'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: 'FC1AA1F7C7FDE66D968D73A50AE37717',
+    id: '3EB0927F28884C39484788',
     participant: undefined
   },
-  messageTimestamp: 1713486203,
+  messageTimestamp: 1713564174,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'Volver',
+    conversation: 'volver',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Volver',
+  body: 'volver',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
-  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
   answer: '🤔 ¿Qué te gustaría hacer?\n' +
     '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
     '💰 Escribe *Pago* para revisar las formas de pago.\n' +
@@ -187,117 +296,91 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '67ECF37A15D2D51FCD2A8B75AFB4AF62',
+    id: '3EB0E014922C6F22351994',
     participant: undefined
   },
-  messageTimestamp: 1713486206,
+  messageTimestamp: 1713564288,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'Pago',
+    conversation: 'kevin que',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Pago',
+  body: 'kevin que',
+  from: '573152089391'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09A95AC720D034B9BFB',
+    participant: undefined
+  },
+  messageTimestamp: 1713564292,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'como esta',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'como esta',
+  from: '573152089391'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB050EE23A38690E6BDE0',
+    participant: undefined
+  },
+  messageTimestamp: 1713564346,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'buensa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'buensa',
+  from: '573152089391'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02736166FEF0A72AAE0',
+    participant: undefined
+  },
+  messageTimestamp: 1713564348,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'buenas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'buenas',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2b998f05-f7c0-4a87-8258-5c532cf6371b',
-  keyword: 'key_e484c5c2-dbc3-4ee1-bd50-bd9e2a57263b',
-  answer: '💳 Aquí están los métodos de pago\n' +
-    '\n' +
-    '💸 Nequi: 3152089391\n' +
-    '🏦 Bancolombia: 3152089391\n' +
-    '🏛️ Davivienda: 3152089391\n' +
-    '📱 Daviplata: 3152089391\n' +
-    ' 🔙 Escribe Volver para regresar al menú principal\n' +
-    '\n' +
-    ' Escribe *Volver* para volver al menú principal',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '08d413f7f6b13f5009232a464b0ff21d'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573152089391@s.whatsapp.net',
-    fromMe: false,
-    id: 'B9776998D6D88815207FB56411A4D10A',
-    participant: undefined
-  },
-  messageTimestamp: 1713486210,
-  pushName: 'Kevin Causado',
-  broadcast: false,
-  message: Message {
-    conversation: 'Sjd',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Sjd',
-  from: '573152089391'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573152089391@s.whatsapp.net',
-    fromMe: false,
-    id: 'BA5A9FF97743717CD3601A475A7DA0C0',
-    participant: undefined
-  },
-  messageTimestamp: 1713486212,
-  pushName: 'Kevin Causado',
-  broadcast: false,
-  message: Message {
-    conversation: '27273',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '27273',
-  from: '573152089391'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573152089391@s.whatsapp.net',
-    fromMe: false,
-    id: '142CFFA7DD8B20493D2FE49F160476F2',
-    participant: undefined
-  },
-  messageTimestamp: 1713486221,
-  pushName: 'Kevin Causado',
-  broadcast: false,
-  message: Message {
-    conversation: 'Volver',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Volver',
-  from: '573152089391'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
-  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
   answer: '🤔 ¿Qué te gustaría hacer?\n' +
     '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
     '💰 Escribe *Pago* para revisar las formas de pago.\n' +
@@ -314,31 +397,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '7A75D5927BDF375FCF636E13141C316F',
+    id: '3EB011D457732F6CBDABEE',
     participant: undefined
   },
-  messageTimestamp: 1713486227,
+  messageTimestamp: 1713564368,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'Soporte',
+    conversation: 'soporte',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Soporte',
+  body: 'soporte',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1062dc98-a71a-4fa8-a49a-c94d2bed07d2',
-  keyword: 'key_a19882aa-62c6-4c26-9453-ef8ee6b42798',
+  ref: 'ans_14b9f8c7-fc83-4be8-b33d-4ffefdf465eb',
+  keyword: 'key_4acc923f-d356-42ea-ba6d-afe841e686e1',
   answer: '🚨 Puedes contactar al proveedor al siguiente número: 3152089391\n' +
     'Escribe *Volver* para volver al menú principal',
   options: {
@@ -353,31 +436,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'cab0d34be89cac3bae9388ed8f7f9c68'
+  refSerialize: 'e84402287d30fd53f020214a94cafd39'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '6CBD99398999ACC4AAD5B9F5E83C63A7',
+    id: '3EB0B5A53B2D3C8C253608',
     participant: undefined
   },
-  messageTimestamp: 1713486233,
+  messageTimestamp: 1713564375,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'Volver',
+    conversation: 'volver',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Volver',
+  body: 'volver',
   from: '573152089391'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cb249222-1383-4483-ab86-02b5896f6314',
-  keyword: 'key_4df766d6-faf3-4333-b0df-99e7733c1aa4',
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
   answer: '🤔 ¿Qué te gustaría hacer?\n' +
     '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
     '💰 Escribe *Pago* para revisar las formas de pago.\n' +
@@ -394,25 +477,614 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'bc70f7d78ec0a7451915236997670334'
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573152089391@s.whatsapp.net',
     fromMe: false,
-    id: '85B7AB4A3BBE91FABAAF01367FF73374',
+    id: '3EB0DB85253302CC10763D',
     participant: undefined
   },
-  messageTimestamp: 1713486237,
+  messageTimestamp: 1713564382,
   pushName: 'Kevin Causado',
   broadcast: false,
   message: Message {
-    conversation: 'Gracias',
+    conversation: 'servicios',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Gracias',
+  body: 'servicios',
   from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  keyword: 'key_a89dadd3-5a64-4144-bb47-b4169fd4947d',
+  answer: '🙌 Hola, bienvenido a nuestro catalogo de Servicios *International Film*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eddd79ce4352432dc5760d825924612e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_93f633d4-f0c3-431a-9a2d-2819997d3fff',
+  keyword: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  answer: 'Recuerda validar el último catálogo siempre\n' +
+    '\n' +
+    '*Netflix*\n' +
+    '🔴 1 Pantalla 1 Mes: 💵 $15.000\n' +
+    '🔴 2 Pantallas 1 Mes: 💵 $25.000\n' +
+    '🔴 3 Pantallas 1 Mes: 💵 $35.000\n' +
+    '🔴 4 Pantallas 1 Mes: 💵 $40.000\n' +
+    '\n' +
+    '*Amazon Prime Video*\n' +
+    '🔵 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🔵 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🔵 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Disney+*\n' +
+    '🟣 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟣 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🟣 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '🟣 4 Pantallas 1 Mes: 💵 $24.000\n' +
+    '\n' +
+    '*HBO MAX*\n' +
+    '⚫ 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '⚫ 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '⚫ 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Star+*\n' +
+    '🟠 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 Mes: 💵 $17.000\n' +
+    '🟠 3 Pantallas 1 Mes: 💵 $21.000\n' +
+    '🟠 4 Pantallas 1 Mes: 💵 $25.000\n' +
+    '\n' +
+    '*IPTV con Win+ 3000 Canales*\n' +
+    '🉐  1 dispositivo 1 Mes 💵$15.000\n' +
+    '🉐  2 dispositivo 1 Mes 💵$20.000\n' +
+    '🉐  3 dispositivo 1 Mes 💵$25.000\n' +
+    '\n' +
+    '*Plex*\n' +
+    '🟡 1 Pantalla(Solo Tv) 1 mes: 💵 $10.000\n' +
+    '🟡 2 Pantallas 1 mes: 💵 $16.000\n' +
+    '🟡 3 Pantallas 1 mes: 💵 $20.000\n' +
+    '🟡 4 Pantallas 1 mes: 💵 $24.000\n' +
+    '\n' +
+    '*Directv go Oro con win+ , hbo y nba*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $40.000\n' +
+    '\n' +
+    '*Directv go Plata con win+*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $35.000\n' +
+    '\n' +
+    '*Crunchyroll*\n' +
+    '🟠 1 Pantalla 1 mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 mes: 💵 16.000\n' +
+    '🟠 4 Pantallas 1 mes: 💵 $20.000\n' +
+    '\n' +
+    '*Vix +*\n' +
+    '🔵 1 Pantalla 1 mes  💵$10.000\n' +
+    '🔵3 Pantalla 1 mes 💵$21.000\n' +
+    '\n' +
+    '*Paramount*\n' +
+    '⚫1 Pantalla 1 Mes 💵$10.000\n' +
+    '⚫2 Pantallas 1 Mes 💵$16.000\n' +
+    '⚫3 Pantallas 1 Mes 💵$18.000\n' +
+    '⚫4 Pantallas 1 Mes 💵$20.000\n' +
+    '\n' +
+    '*Apple Tv*\n' +
+    '🟣1 Dispositivo 3 Mes 💵 $22.000\n' +
+    '\n' +
+    '*Spotify*\n' +
+    '🟢 1 Mes: 💵 $10.000\n' +
+    '🟢 2 Meses: 💵 $14.000\n' +
+    '🟢 3 Meses: 💵 $20.000\n' +
+    '\n' +
+    '*Youtube Premium*\n' +
+    '⭕ 1 mes: 💵$10.000\n' +
+    '⭕ 2 meses: 💵$16.000\n' +
+    '⭕ 4 meses: 💵$30.000\n' +
+    '⭕ 1 mes Familiar: 💵$10.000\n' +
+    '\n' +
+    'Escribe *Volver* para retornar al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '026b13d176b9dddac4e87e4a0fa2b373'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09794AEDD0C30A29DA7',
+    participant: undefined
+  },
+  messageTimestamp: 1713564397,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0817FE939CF6A24D86E',
+    participant: undefined
+  },
+  messageTimestamp: 1713564401,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'pago',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'pago',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_482bc599-88b5-4a7f-9a64-dedadc7784a2',
+  keyword: 'key_dbab3f33-1445-4e10-919b-e6af0fb61ef3',
+  answer: '💳 Aquí están los métodos de pago\n' +
+    '\n' +
+    '💸 Nequi: 3152089391\n' +
+    '🏦 Bancolombia: 3152089391\n' +
+    '🏛️ Davivienda: 3152089391\n' +
+    '📱 Daviplata: 3152089391\n' +
+    '\n' +
+    ' 🔙 Escribe *Volver* para regresar al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3082a019e5e289562c6d109fbf4348b7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F479A82E71C88D8661',
+    participant: undefined
+  },
+  messageTimestamp: 1713564417,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E6619CD5E6E89BB60E',
+    participant: undefined
+  },
+  messageTimestamp: 1713564454,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'que servicios vendes',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'que servicios vendes',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  keyword: 'key_a89dadd3-5a64-4144-bb47-b4169fd4947d',
+  answer: '🙌 Hola, bienvenido a nuestro catalogo de Servicios *International Film*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eddd79ce4352432dc5760d825924612e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_93f633d4-f0c3-431a-9a2d-2819997d3fff',
+  keyword: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  answer: 'Recuerda validar el último catálogo siempre\n' +
+    '\n' +
+    '*Netflix*\n' +
+    '🔴 1 Pantalla 1 Mes: 💵 $15.000\n' +
+    '🔴 2 Pantallas 1 Mes: 💵 $25.000\n' +
+    '🔴 3 Pantallas 1 Mes: 💵 $35.000\n' +
+    '🔴 4 Pantallas 1 Mes: 💵 $40.000\n' +
+    '\n' +
+    '*Amazon Prime Video*\n' +
+    '🔵 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🔵 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🔵 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Disney+*\n' +
+    '🟣 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟣 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🟣 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '🟣 4 Pantallas 1 Mes: 💵 $24.000\n' +
+    '\n' +
+    '*HBO MAX*\n' +
+    '⚫ 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '⚫ 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '⚫ 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Star+*\n' +
+    '🟠 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 Mes: 💵 $17.000\n' +
+    '🟠 3 Pantallas 1 Mes: 💵 $21.000\n' +
+    '🟠 4 Pantallas 1 Mes: 💵 $25.000\n' +
+    '\n' +
+    '*IPTV con Win+ 3000 Canales*\n' +
+    '🉐  1 dispositivo 1 Mes 💵$15.000\n' +
+    '🉐  2 dispositivo 1 Mes 💵$20.000\n' +
+    '🉐  3 dispositivo 1 Mes 💵$25.000\n' +
+    '\n' +
+    '*Plex*\n' +
+    '🟡 1 Pantalla(Solo Tv) 1 mes: 💵 $10.000\n' +
+    '🟡 2 Pantallas 1 mes: 💵 $16.000\n' +
+    '🟡 3 Pantallas 1 mes: 💵 $20.000\n' +
+    '🟡 4 Pantallas 1 mes: 💵 $24.000\n' +
+    '\n' +
+    '*Directv go Oro con win+ , hbo y nba*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $40.000\n' +
+    '\n' +
+    '*Directv go Plata con win+*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $35.000\n' +
+    '\n' +
+    '*Crunchyroll*\n' +
+    '🟠 1 Pantalla 1 mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 mes: 💵 16.000\n' +
+    '🟠 4 Pantallas 1 mes: 💵 $20.000\n' +
+    '\n' +
+    '*Vix +*\n' +
+    '🔵 1 Pantalla 1 mes  💵$10.000\n' +
+    '🔵3 Pantalla 1 mes 💵$21.000\n' +
+    '\n' +
+    '*Paramount*\n' +
+    '⚫1 Pantalla 1 Mes 💵$10.000\n' +
+    '⚫2 Pantallas 1 Mes 💵$16.000\n' +
+    '⚫3 Pantallas 1 Mes 💵$18.000\n' +
+    '⚫4 Pantallas 1 Mes 💵$20.000\n' +
+    '\n' +
+    '*Apple Tv*\n' +
+    '🟣1 Dispositivo 3 Mes 💵 $22.000\n' +
+    '\n' +
+    '*Spotify*\n' +
+    '🟢 1 Mes: 💵 $10.000\n' +
+    '🟢 2 Meses: 💵 $14.000\n' +
+    '🟢 3 Meses: 💵 $20.000\n' +
+    '\n' +
+    '*Youtube Premium*\n' +
+    '⭕ 1 mes: 💵$10.000\n' +
+    '⭕ 2 meses: 💵$16.000\n' +
+    '⭕ 4 meses: 💵$30.000\n' +
+    '⭕ 1 mes Familiar: 💵$10.000\n' +
+    '\n' +
+    'Escribe *Volver* para retornar al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '026b13d176b9dddac4e87e4a0fa2b373'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A316EADD29FA02737E',
+    participant: undefined
+  },
+  messageTimestamp: 1713564480,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'que pagos manejas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'que pagos manejas',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_482bc599-88b5-4a7f-9a64-dedadc7784a2',
+  keyword: 'key_dbab3f33-1445-4e10-919b-e6af0fb61ef3',
+  answer: '💳 Aquí están los métodos de pago\n' +
+    '\n' +
+    '💸 Nequi: 3152089391\n' +
+    '🏦 Bancolombia: 3152089391\n' +
+    '🏛️ Davivienda: 3152089391\n' +
+    '📱 Daviplata: 3152089391\n' +
+    '\n' +
+    ' 🔙 Escribe *Volver* para regresar al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3082a019e5e289562c6d109fbf4348b7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB08D9E46B2ED0248DF45',
+    participant: undefined
+  },
+  messageTimestamp: 1713564488,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'volver',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cb89a310-04f1-4417-add1-5bcd485fc8d6',
+  keyword: 'key_45e6a562-61ea-4dcc-b9a9-b4a2c0234d1e',
+  answer: '🤔 ¿Qué te gustaría hacer?\n' +
+    '🔍 Escribe *Servicios* para explorar las opciones disponibles.\n' +
+    '💰 Escribe *Pago* para revisar las formas de pago.\n' +
+    '🆘 Escribe *Soporte* para contactar al proveedor en caso de emergencia.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e61cceb24b8e908f9924bd199cb9916f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573152089391@s.whatsapp.net',
+    fromMe: false,
+    id: 'C538B14D3BFB1BB6ED4C1C4F870BCB2D',
+    participant: undefined
+  },
+  messageTimestamp: 1713564864,
+  pushName: 'Kevin Causado',
+  broadcast: false,
+  message: Message {
+    conversation: 'Servicios',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Servicios',
+  from: '573152089391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  keyword: 'key_a89dadd3-5a64-4144-bb47-b4169fd4947d',
+  answer: '🙌 Hola, bienvenido a nuestro catalogo de Servicios *International Film*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eddd79ce4352432dc5760d825924612e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_93f633d4-f0c3-431a-9a2d-2819997d3fff',
+  keyword: 'ans_236a0a56-b601-44ac-9200-192ffce9f735',
+  answer: 'Recuerda validar el último catálogo siempre\n' +
+    '\n' +
+    '*Netflix*\n' +
+    '🔴 1 Pantalla 1 Mes: 💵 $15.000\n' +
+    '🔴 2 Pantallas 1 Mes: 💵 $25.000\n' +
+    '🔴 3 Pantallas 1 Mes: 💵 $35.000\n' +
+    '🔴 4 Pantallas 1 Mes: 💵 $40.000\n' +
+    '\n' +
+    '*Amazon Prime Video*\n' +
+    '🔵 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🔵 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🔵 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Disney+*\n' +
+    '🟣 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟣 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '🟣 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '🟣 4 Pantallas 1 Mes: 💵 $24.000\n' +
+    '\n' +
+    '*HBO MAX*\n' +
+    '⚫ 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '⚫ 2 Pantallas 1 Mes: 💵 $16.000\n' +
+    '⚫ 3 Pantallas 1 Mes: 💵 $20.000\n' +
+    '\n' +
+    '*Star+*\n' +
+    '🟠 1 Pantalla 1 Mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 Mes: 💵 $17.000\n' +
+    '🟠 3 Pantallas 1 Mes: 💵 $21.000\n' +
+    '🟠 4 Pantallas 1 Mes: 💵 $25.000\n' +
+    '\n' +
+    '*IPTV con Win+ 3000 Canales*\n' +
+    '🉐  1 dispositivo 1 Mes 💵$15.000\n' +
+    '🉐  2 dispositivo 1 Mes 💵$20.000\n' +
+    '🉐  3 dispositivo 1 Mes 💵$25.000\n' +
+    '\n' +
+    '*Plex*\n' +
+    '🟡 1 Pantalla(Solo Tv) 1 mes: 💵 $10.000\n' +
+    '🟡 2 Pantallas 1 mes: 💵 $16.000\n' +
+    '🟡 3 Pantallas 1 mes: 💵 $20.000\n' +
+    '🟡 4 Pantallas 1 mes: 💵 $24.000\n' +
+    '\n' +
+    '*Directv go Oro con win+ , hbo y nba*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $40.000\n' +
+    '\n' +
+    '*Directv go Plata con win+*\n' +
+    '🔘1 Dispositivo 1 Mes 💵 $35.000\n' +
+    '\n' +
+    '*Crunchyroll*\n' +
+    '🟠 1 Pantalla 1 mes: 💵 $10.000\n' +
+    '🟠 2 Pantallas 1 mes: 💵 16.000\n' +
+    '🟠 4 Pantallas 1 mes: 💵 $20.000\n' +
+    '\n' +
+    '*Vix +*\n' +
+    '🔵 1 Pantalla 1 mes  💵$10.000\n' +
+    '🔵3 Pantalla 1 mes 💵$21.000\n' +
+    '\n' +
+    '*Paramount*\n' +
+    '⚫1 Pantalla 1 Mes 💵$10.000\n' +
+    '⚫2 Pantallas 1 Mes 💵$16.000\n' +
+    '⚫3 Pantallas 1 Mes 💵$18.000\n' +
+    '⚫4 Pantallas 1 Mes 💵$20.000\n' +
+    '\n' +
+    '*Apple Tv*\n' +
+    '🟣1 Dispositivo 3 Mes 💵 $22.000\n' +
+    '\n' +
+    '*Spotify*\n' +
+    '🟢 1 Mes: 💵 $10.000\n' +
+    '🟢 2 Meses: 💵 $14.000\n' +
+    '🟢 3 Meses: 💵 $20.000\n' +
+    '\n' +
+    '*Youtube Premium*\n' +
+    '⭕ 1 mes: 💵$10.000\n' +
+    '⭕ 2 meses: 💵$16.000\n' +
+    '⭕ 4 meses: 💵$30.000\n' +
+    '⭕ 1 mes Familiar: 💵$10.000\n' +
+    '\n' +
+    'Escribe *Volver* para retornar al menú principal',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '026b13d176b9dddac4e87e4a0fa2b373'
 }
